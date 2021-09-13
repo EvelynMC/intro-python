@@ -71,10 +71,67 @@ tupla = ('hola', 'mundo', 'somos', 'tupla')
 listaDeTupla = list(tupla)  # transformar lista a tupla
 listaDeTupla.append('chanchito')
 
-print(listaDeTupla)
+# print(listaDeTupla)
 
 # -- RANGOS  --> Sirve para trabajar con las iteraciones
 
 rango = range(6)
 
-print(rango)
+# print(rango)
+
+
+# -- DICCIONARIOS
+
+diccionario = {
+    "nombre": "Chanchito Feliz",
+    "raza": "Persa",
+    "edad": 5
+}
+
+# print(diccionario['nombre'])
+# print(diccionario['raza'])
+# print(diccionario.get('nombre'))
+# diccionario['nombre'] = 'Fluffy'
+
+# print(len(diccionario))
+
+diccionario["ronronea"] = 'Si'
+# print(diccionario)
+
+# diccionario.pop('ronronea')    # elimina un valor del diccionario
+# print(diccionario)
+
+copiaGatito = diccionario.copy()
+# del diccionario['ronronea']
+diccionario.clear()      #elimina todos los valores de un diccionario
+# diccionario.popitem() #elimina ultimo valor del diccionario
+# print(diccionario, copiaGatito)
+
+# DICCIONARIOS ANIDADOS
+
+fluffy = {
+    "nombre": "Fluffy",
+    "edad": 4
+}
+
+mamba = {
+    "nombre":"Black Mamba",
+    "edad": 12
+}
+
+gatitos = {
+    "Fluffy": fluffy,
+    "Mamba": mamba
+}
+
+print(gatitos)
+
+perritos = dict(nombre="Chanchito Feliz", edad=6)
+
+print(perritos)
+
+verdadero = True
+falso = False
+
+print(verdadero, falso)
+
