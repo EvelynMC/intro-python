@@ -32,7 +32,7 @@
 #         continue
 #     print(usuario)
 
-# for x in range(3,30, 5):
+# for x in range(3,30,5):
 #     print(x)
 # else:
 #     print('Hemos terminado')
